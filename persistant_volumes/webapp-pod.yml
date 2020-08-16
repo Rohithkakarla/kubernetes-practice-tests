@@ -11,5 +11,5 @@ spec:
       name: test-volume
   volumes:
   - name: test-volume
-    hostpath:
+    hostPath:
       path: "/var/log/webapp"
