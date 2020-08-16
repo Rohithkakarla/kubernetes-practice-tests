@@ -10,6 +10,6 @@ spec:
     - mountPath: /log
       name: task-pv-claim
   volumes:
-  - name: test-volume
+  - name: task-pv-claim
     persistentVolumeClaim:
-      claimName: task-pv-claim
+      claimName: pv-log
