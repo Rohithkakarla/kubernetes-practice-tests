@@ -12,4 +12,4 @@ spec:
   volumes:
   - name: task-pv-claim
     persistentVolumeClaim:
-      claimName: pv-log
+      claimName: claim-log-1
