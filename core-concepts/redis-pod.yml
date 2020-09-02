@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: rediscontainer
-      image: redis123
+      image: redis
